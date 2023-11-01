@@ -11,3 +11,7 @@ output "source" {
 output "output_path" {
   value = data.archive_file.default.output_path
 }
+
+output "output_sha" {
+  value = data.archive_file.default.output_sha
+}
